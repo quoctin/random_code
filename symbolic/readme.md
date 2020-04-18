@@ -6,7 +6,7 @@ Usual mathematical expression (`infix`) represents addition of `a` and `b` as `a
 
 [Reverse Polish notation (RPN)](https://en.wikipedia.org/wiki/Reverse_Polish_notation),  also known as Polish postfix notation,  is a more efficient representation, where parentheses are not needed. In RPN, the operators follow their operands. For instance, `2 * ( ( 4 + 3)  ^ 2 )` can be written in RPN as `2 4 3 + 2 ^ *`.
 
-In this Python [script]('eq_representation.py'), I implemented **Shunting-yard algorithm** that converts from infix to prefix and postfix expression. My implemention also allows unary operation (`-x`).
+In this Python [script](eq_representation.py), I implemented **Shunting-yard algorithm** that converts from infix to prefix and postfix expression. My implemention also allows unary operation (`-x`).
 
 # Example
 
