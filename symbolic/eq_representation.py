@@ -302,6 +302,7 @@ if __name__ == '__main__':
     eq = 'exp ( 2 ) * 12 ^ 3 + 4 / ( 3 * sqrt ( 2 ) )'
     sequence = to_decimal(eq.split())
     sequence = unary_to_binary(sequence)
-    print('{:<12s}{:<12s}'.format('Infix: ', str(sequence)))
+    print('')
+    print('{:<12s}{:<12s}'.format('Infix: ', eq))
     print('{:<12s}{:<12s}'.format('Prefix: ', str(infix_to_prefix(sequence))))
     print('{:<12s}{:<12s}'.format('Postfix: ', str(infix_to_postfix(sequence))))

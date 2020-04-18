@@ -11,7 +11,7 @@ In this Python [script]('eq_representation.py'), I implemented **Shunting-yard a
 # Example
 
 ```
-Infix:      ['exp', '(', 2, ')', '*', 12, '^', 3, '+', 4, '/', '(', 3, '*', 'sqrt', '(', 2, ')', ')']
+Infix:      exp ( 2 ) * 12 ^ 3 + 4 / ( 3 * sqrt ( 2 ) )
 Prefix:     ['+', '*', 'exp', 2, '^', 12, 3, '/', 4, '*', 3, 'sqrt', 2]
 Postfix:    [2, 'exp', 12, 3, '^', '*', 4, 3, 2, 'sqrt', '*', '/', '+']
 ```
