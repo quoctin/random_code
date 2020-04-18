@@ -1,6 +1,5 @@
 from collections import deque
 from queue import Queue
-from enum import IntEnum
 
 class Func:
     SQRT = 'sqrt'
