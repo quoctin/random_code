@@ -292,7 +292,7 @@ if __name__ == '__main__':
     for i, eq in enumerate(eqs):
         sequence = to_decimal(eq.split())
         sequence = unary_to_binary(sequence)
-        assert infix_to_postfix(sequence) == postfix_sol[i], print(infix_to_postfix(sequence))
+        assert infix_to_postfix(sequence) == postfix_sol[i]
         assert infix_to_prefix(sequence) == prefix_sol[i]
 
     print('Test pass')
